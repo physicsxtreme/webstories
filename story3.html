@@ -9,7 +9,7 @@
 <link rel="canonical" href="https://stories.physicsxtreme.in/story3.html">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
-<!-- Open Graph (Helps Discover) -->
+<!-- Open Graph -->
 <meta property="og:title" content="Science Is Everywhere 🌍">
 <meta property="og:description" content="Discover real-life science around you in this Class 6 CBSE Web Story.">
 <meta property="og:type" content="article">
@@ -26,7 +26,7 @@ src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
 <script async custom-element="amp-analytics"
 src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
-<!-- AMP Boilerplate -->
+<!-- Official AMP Boilerplate -->
 <style amp-boilerplate>
 body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;
 -moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;
@@ -46,6 +46,72 @@ body{-webkit-animation:none;
 animation:none}
 </style>
 </noscript>
+
+<style amp-custom>
+
+amp-story {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #ffffff;
+}
+
+.page-content {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  height:100%;
+  padding:30px;
+}
+
+.glass-box {
+  background: rgba(0,0,0,0.65);
+  padding:30px;
+  border-radius:20px;
+  box-shadow:0 8px 30px rgba(0,0,0,0.4);
+  max-width:90%;
+}
+
+h1 {
+  font-size:40px;
+  font-weight:700;
+  margin-bottom:15px;
+}
+
+h2 {
+  font-size:32px;
+  font-weight:600;
+  margin-bottom:15px;
+}
+
+p {
+  font-size:22px;
+  line-height:1.6;
+}
+
+.gradient1 { background: linear-gradient(135deg,#0f2027,#203a43,#2c5364); }
+.gradient2 { background: linear-gradient(135deg,#42275a,#734b6d); }
+.gradient3 { background: linear-gradient(135deg,#1e3c72,#2a5298); }
+.gradient4 { background: linear-gradient(135deg,#ff512f,#dd2476); }
+.gradient5 { background: linear-gradient(135deg,#141e30,#243b55); }
+
+.cta-button {
+  margin-top:25px;
+  padding:16px 30px;
+  background: linear-gradient(90deg,#ff8c00,#ff2e63);
+  color:#ffffff;
+  font-size:20px;
+  font-weight:bold;
+  border-radius:50px;
+  text-decoration:none;
+  box-shadow:0 6px 20px rgba(255,46,99,0.6);
+}
+
+.cta-button:active {
+  transform:scale(0.95);
+}
+
+</style>
 </head>
 
 <body>
@@ -57,60 +123,65 @@ publisher-logo-src="https://stories.physicsxtreme.in/logo.png"
 poster-portrait-src="https://stories.physicsxtreme.in/images/story3-poster.jpg">
 
 <!-- Slide 1 -->
-<amp-story-page id="page1">
-  <amp-story-grid-layer template="fill">
-    <amp-img src="https://stories.physicsxtreme.in/images/story3-poster.jpg"
-      width="720" height="1280"
-      layout="responsive"
-      alt="Science is everywhere in daily life">
-    </amp-img>
-  </amp-story-grid-layer>
+<amp-story-page id="page1" class="gradient1">
   <amp-story-grid-layer template="vertical" class="page-content">
-    <h1>🌍 Science Is Everywhere!</h1>
-    <p>Look around you… 👀</p>
+    <div class="glass-box">
+      <h1>🌍 Science Is Everywhere!</h1>
+      <p>Look around you… 👀</p>
+    </div>
   </amp-story-grid-layer>
 </amp-story-page>
 
 <!-- Slide 2 -->
-<amp-story-page id="page2" class="gradient1">
+<amp-story-page id="page2" class="gradient2">
   <amp-story-grid-layer template="vertical" class="page-content">
-    <h2>🌅 Sunrise & Sunset</h2>
-    <p>Earth rotates on its axis 🌎<br><br>That creates day & night!</p>
+    <div class="glass-box">
+      <h2>🌅 Sunrise & Sunset</h2>
+      <p>Earth rotates on its axis 🌎<br><br>That creates day & night!</p>
+    </div>
   </amp-story-grid-layer>
 </amp-story-page>
 
 <!-- Slide 3 -->
-<amp-story-page id="page3" class="gradient2">
+<amp-story-page id="page3" class="gradient3">
   <amp-story-grid-layer template="vertical" class="page-content">
-    <h2>🍎 Why Does an Apple Fall?</h2>
-    <p>Gravity pulls objects ⬇️<br><br>Science explains WHY!</p>
+    <div class="glass-box">
+      <h2>🍎 Why Does an Apple Fall?</h2>
+      <p>Gravity pulls objects ⬇️<br><br>Science explains WHY!</p>
+    </div>
   </amp-story-grid-layer>
 </amp-story-page>
 
 <!-- Slide 4 -->
-<amp-story-page id="page4" class="gradient3">
+<amp-story-page id="page4" class="gradient4">
   <amp-story-grid-layer template="vertical" class="page-content">
-    <h2>🚲 Riding a Bicycle</h2>
-    <p>Balance ⚖️<br>Motion 🏃‍♂️<br>Friction 🛞<br><br>All are Science!</p>
+    <div class="glass-box">
+      <h2>🚲 Riding a Bicycle</h2>
+      <p>Balance ⚖️<br>Motion 🏃‍♂️<br>Friction 🛞<br><br>All are Science!</p>
+    </div>
   </amp-story-grid-layer>
 </amp-story-page>
 
 <!-- Slide 5 -->
-<amp-story-page id="page5" class="gradient4">
+<amp-story-page id="page5" class="gradient1">
   <amp-story-grid-layer template="vertical" class="page-content">
-    <h2>🔥 Cooking Food</h2>
-    <p>Heat changes raw food 🍲<br><br>That’s Chemistry in action!</p>
+    <div class="glass-box">
+      <h2>🔥 Cooking Food</h2>
+      <p>Heat changes raw food 🍲<br><br>That’s Chemistry in action!</p>
+    </div>
   </amp-story-grid-layer>
 </amp-story-page>
 
 <!-- Slide 6 CTA -->
 <amp-story-page id="page6" class="gradient5">
   <amp-story-grid-layer template="vertical" class="page-content">
-    <h2>✨ Love Learning Science?</h2>
-    <p>Explore full lessons, quizzes & videos!</p>
-    <a class="cta-button" href="https://physicsxtreme.in">
-      🚀 Visit Physics Xtreme
-    </a>
+    <div class="glass-box">
+      <h2>✨ Love Learning Science?</h2>
+      <p>Explore full lessons, quizzes & videos!</p>
+      <a class="cta-button" href="https://physicsxtreme.in">
+        🚀 Visit Physics Xtreme
+      </a>
+    </div>
   </amp-story-grid-layer>
 </amp-story-page>
 
